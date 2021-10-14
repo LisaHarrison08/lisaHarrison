@@ -1,0 +1,36 @@
+/* This where the magic happens..let's get fancy*/
+
+/* The @import rule allows you to import a style sheet into another style sheet */
+/* Fonts - GoogleFont */
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+
+
+/* Body */
+/* body{ */
+  /* background-color: ;  */
+/* } */
+/* Navbar */
+
+
+/* Images */
+img{
+  width:100% !important;
+  height:100% !important;
+}
+
+
+/* Paragraph Element */
+p{
+color: rgb(82, 57, 105);
+font-family:'Arimo', sans-serif;;
+font-size: 12px; 
+}
+/* Box Class */
+.box {
+  margin-top: 60px; 
+  margin-bottom: 62px; 
+  padding: 10px 20px 15px; 
+  color:black;
+  background-color: white; 
+}
+/* Media Queries */
