@@ -10,7 +10,29 @@
   /* background-color: ;  */
 /* } */
 /* Navbar */
+.nav{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  position: absolute;
+  left: 0;
+  font-weight: 400;
+  width: 100%;
+  top: 0; 
+}
 
+.nav-item,.nav-link {
+  padding: 10px 8px;
+  color: #495057;
+  font-size: 1.2rem;
+  position: relative; }
+
+
+
+.navbar-brand{
+  font-size: 1.9rem;
+  color: #495057;
+  font-weight: 700; 
+}
 
 /* Images */
 img{
