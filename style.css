@@ -45,10 +45,11 @@ h1{
   animation-delay: 1s;
 } 
 h6{
-  font-size: 30px;
+  font-size: 20px;
+  color:black;
   position:relative;
   display:inline-block;
-  animation: text-reveal .5s ease forwards;
+  /* animation: text-reveal .5s ease forwards; */
   animation-delay: 1s;
 }
 h1 span,
@@ -97,7 +98,7 @@ h1:nth-child(3) span{
   100%{
     color:lightseagreen;
   }
-}
+} 
 
 
 /* Images */
