@@ -120,7 +120,12 @@ h1 span,
 .about-section{
   margin-top: 140px;
   background-color: rgb(240, 240, 240);
+  padding:10px;
 }
+#about-comment {
+  margin-bottom: 40px;
+}
+
 img{
   width: 80%;
   height: auto; 
