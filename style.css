@@ -10,7 +10,6 @@ body{
   margin:0;
   padding:0;
   height:100vh;
-  /* background-color: rgb(236, 227, 227);  */
 } 
 #particles-js{
   height:80%;
@@ -55,7 +54,6 @@ body{
 h1{
   font-size: 80px;
   position:relative;
-  /* position:absolute; */
   display:inline-block; 
   animation: text-reveal .5s ease forwards;
   animation-delay: 1s;
@@ -116,7 +114,8 @@ h1 span,
 
 /* Section: About */
 .about-section{
-  margin-top: 200px;
+  margin-top: 140px;
+  background-color: rgb(240, 240, 240);
 }
 img{
   width: 80%;
