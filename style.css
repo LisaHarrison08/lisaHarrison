@@ -43,14 +43,14 @@ body{
   margin-top: 200px;
   margin-bottom: 60px;
   position:absolute;
-  left:580px;
+  left:500px;
 }
 /* This is the quote */
 #reveal{
   margin-top: 270px; 
   text-align: center;
   position:absolute;
-  left:480px;
+  left:400px;
 }
 
 h1{
