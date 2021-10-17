@@ -1,7 +1,11 @@
 # Lisa Harrison
 
 ## Website: Portfolio 
-Welcome to my current 'work in progress' portfolio site - site to be deployed soon...
+Welcome to my current 'work in progress' portfolio site - 
+You can view it's current state here:
+                https://lisa-harrison.herokuapp.com/
+
+The site is in the process of being built, lots to do and tweak still!
 
 Portfolio includes navigation between the different information sections. 
 Navigation bar provides option to link to external pages.
