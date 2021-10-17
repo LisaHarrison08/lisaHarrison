@@ -13,7 +13,7 @@ Profile links to profile pages of sites included.
 For reference, see the ["Screenshots" section](#screenshots) below.
 
 The website consists of 4 navigation links:
-*Profile Links: Included are links ro freeCodeCamp, GitHub, Tableau & LinkedIn
+*Profile Links: Included are links to freeCodeCamp, GitHub, Tableau & LinkedIn
 *Portfolio
 *About
 *Contact

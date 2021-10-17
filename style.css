@@ -180,3 +180,24 @@ button[type=toTop]:hover {
 
 
 /* Media Queries */
+@media (min-width: 768px) {
+	.container,
+  .container-fluid,
+  .particles-js {
+		width: 100%;
+	}
+}
+@media (min-width: 992px) {
+	.container,
+  .container-fluid,
+  .particles-js{
+		width: 100%;
+	}
+}
+@media (min-width: 1200px) {
+	.container,
+  .container-fluid,
+  .particles-js{
+		width: 100%;
+	}
+}
