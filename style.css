@@ -34,20 +34,20 @@
 
 /* Section:Reveal */
 #reveal{
-  margin-top: 100px;
+  margin-top: 180px;
   text-align: center;
 }
 
 
 h1{
-  font-size: 60px;
+  font-size: 80px;
   position:relative;
   display:inline-block; 
   animation: text-reveal .5s ease forwards;
   animation-delay: 1s;
 } 
 .quote{
-  font-size: 20px;
+  font-size: 30px;
   color:black;
   position:relative;
   display:inline-block;
@@ -61,7 +61,7 @@ h1 span,
   top:0;
   height:100%;
   width:0;
-  background-color: lightcoral;
+  background-color: rgb(101, 115, 179);
   animation: overlay 1s ease forwards;
   animation-delay: .5s; 
 }
@@ -98,32 +98,19 @@ h1:nth-child(3) span{
 
 @keyframes text-reveal {
   100%{
-    color:lightseagreen;
+    color:rgb(101, 115, 179);
   }
 } 
 
-
-/* Images */
-img{
-  width:100% !important;
-  height:100% !important;
+/* Section: Portfolio */
+.section-heading, h2{
+  margin-top:300px;
+  text-align: center;
+  font-size: 2.5rem;
 }
 
 
-/* Paragraph Element */
-p{
-color: rgb(82, 57, 105);
-font-family:'Arimo', sans-serif;;
-font-size: 12px; 
-}
-/* Box Class */
-.box {
-  margin-top: 60px; 
-  margin-bottom: 62px; 
-  padding: 10px 20px 15px; 
-  color:black;
-  background-color: white; 
-}
+
 
 
 /* Media Queries */
