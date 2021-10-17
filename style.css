@@ -97,6 +97,10 @@ h1 span,
 } 
 
 /* Section: Portfolio */
+.card-img-top:hover {
+	transform: scale(1.1);	
+}
+
 .section-heading, h2{
   margin-top:30px;
   margin-bottom: 10px;
@@ -158,9 +162,15 @@ button[type=toTop]:hover {
   background-color: rgb(46, 54, 90);
 }
 
-/* Section: Links */
-.progress-section{
+/* ========================================================================= */
+/* Section: Profile Links */
+
+.profile-section{
   background-color: rgb(240, 240, 240);
+}
+
+.p-link{
+  color:rgb(101, 115, 179)
 }
 
 
