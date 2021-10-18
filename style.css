@@ -2,7 +2,8 @@
 
 /* The @import rule allows you to import a style sheet into another style sheet */
 /* Fonts - GoogleFont */
-@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Arimo:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Andada+Pro:wght@700&display=swap');
 
 
 /* Body */
@@ -10,6 +11,7 @@ body{
   margin:0;
   padding:0;
   height:100vh;
+  font-family: 'Andada Pro', serif;
 } 
 
 /* Navigation */
@@ -46,7 +48,7 @@ canvas {
 
 /* Name */
 .reveal{
-  margin-top: 200px;
+  margin-top: 180px;
   margin-bottom: 5px;
   text-align: center;
 }
@@ -57,18 +59,19 @@ canvas {
 }
 
 h1{
-  font-size: 80px;
+  font-size: 60px;
+  color:white;
   position:relative;
   display:inline-block; 
   animation: text-reveal .5s ease forwards;
   animation-delay: 1s;
 } 
 .quote{
-  font-size: 30px;
-  color:black;
+  font-size: 20px;
+  color:white;
   position:relative;
   display:inline-block;
-  /* animation: text-reveal .5s ease forwards; */
+  animation: text-reveal .5s ease forwards; 
   animation-delay: 1s;
 }
 h1 span,
@@ -97,7 +100,8 @@ h1 span,
 
 @keyframes text-reveal {
   100%{
-    color:rgb(101, 115, 179);
+    /* color:rgb(101, 115, 179); */
+    color:black;
   }
 } 
 
@@ -107,7 +111,7 @@ h1 span,
 }
 
 .section-heading, h2{
-  margin-top:30px;
+  margin-top:40px;
   margin-bottom: 10px;
   text-align: center;
   font-size: 2.5rem;
