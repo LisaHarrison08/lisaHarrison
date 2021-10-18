@@ -38,7 +38,8 @@ body{
 /* ========================================================================== */
 canvas {
   display:block;
-  background: rgb(230, 231, 238);
+  /* background: rgb(230, 231, 238); */
+  background: white;
   position: fixed;
   z-index: -1;
 }
@@ -125,6 +126,7 @@ h1 span,
   margin-top: 140px;
   background-color: rgb(240, 240, 240);
   padding:10px;
+  /* opacity:0.8; */
 }
 #about-comment {
   margin-bottom: 40px;
@@ -176,6 +178,7 @@ button[type=toTop]:hover {
 
 .profile-section{
   background-color: rgb(240, 240, 240);
+  opacity:0.8;
 }
 
 .p-link{
