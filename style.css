@@ -11,10 +11,6 @@ body{
   padding:0;
   height:100vh;
 } 
-#particles-js{
-  height:90%;
-  background-color: rgb(240, 240, 240);
-} 
 
 /* Navigation */
 .navbar{
@@ -37,20 +33,26 @@ body{
   color: #495057;
   font-weight: 700; 
 }
+/* ========================================================================== */
+                          /* Section:Reveal */
+/* ========================================================================== */
+canvas {
+  display:block;
+  background: rgb(230, 231, 238);
+  position: fixed;
+  z-index: -1;
+}
 
-/* Section:Reveal */
+/* Name */
 .reveal{
   margin-top: 200px;
-  margin-bottom: 60px;
-  position:absolute;
-  left:500px;
+  margin-bottom: 5px;
+  text-align: center;
 }
 /* This is the quote */
 #reveal{
-  margin-top: 270px; 
+  margin-top: 10px; 
   text-align: center;
-  position:absolute;
-  left:400px;
 }
 
 h1{
@@ -185,21 +187,21 @@ button[type=toTop]:hover {
 @media (min-width: 768px) {
 	.container,
   .container-fluid,
-  .particles-js {
+  #particles-js {
 		width: 100%;
 	}
 }
 @media (min-width: 992px) {
 	.container,
   .container-fluid,
-  .particles-js{
+  #particles-js{
 		width: 100%;
 	}
 }
 @media (min-width: 1200px) {
 	.container,
   .container-fluid,
-  .particles-js{
+  #particles-js{
 		width: 100%;
 	}
 }
