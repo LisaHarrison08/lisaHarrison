@@ -72,4 +72,4 @@ Profile Links:
 
 The JavaScript library (particles.js) used for the first section of this website was sourced from VincentGarreau. This project does not claim any ownership or credit over the javascript library used. Link to the project here:https://github.com/VincentGarreau/particles.js/
 
-
+Image: Project Loading - Bean Bag Chair is a completely free picture material, which can be downloaded and shared unlimitedly from SeekPNG.com. This project does not claim any ownership or credit of the image.
